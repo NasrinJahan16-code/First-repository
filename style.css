@@ -1,0 +1,142 @@
+nav{
+    display: flex;
+}
+
+.nav-title{
+  font-size: 50px;
+  font-weight: 100px;
+  font-family:'Times New Roman', Times, serif
+ }
+.text-primary{
+ color: orangered;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px ;
+}
+nav ul{
+    display: flex;
+}
+.link{
+    color: black;
+    margin-top: 50px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    color:black;
+    padding-top: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn-primary{
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    padding: 18px;
+    border-radius: 5px;
+
+}
+
+/* header */
+.header{
+    background-image: url(./images/developer.png),  url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.secondary-bg{
+    background-color:#fff8f3;
+}
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-gretings{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-pic{
+    width: 580px;
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* aboutstart */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 130px;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.section-description{
+ text-align: center;
+}
+
+/* skills */
+
+.skills-title{
+    font-size: 30px;
+    font-weight: 100  bold;
+}
+.skills{
+    text-align: center;
+    margin: 20px;
+    padding:30px 20px ;
+
+}
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+}
+.skill{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 5px 50px 0px antiquewhite ;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description, .experience-sub-title{
+    color:#757575;
+
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.resume-download{
+    text-align: center;
+    padding: 20px;
+}
